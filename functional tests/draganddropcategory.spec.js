@@ -13,6 +13,9 @@ describe('drag and drop category', function() {
   afterEach(async function() {
     await driver.quit();
   })
+
+
+  
   it('drag and drop category', async function() {
     await driver.get("http://localhost:3000/")
     await driver.manage().window().setRect(1121, 641)
